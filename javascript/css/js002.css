@@ -1,3 +1,19 @@
-#btnVarModify {
-  padding: 5px 20px;
+.container {
+  width: 800px;
+  margin: 0px auto;
+}
+.yx {
+  display: flex;
+  justify-content: space-between;
+}
+.yx > div {
+  display: flex;
+  align-items: center;
+}
+
+.yx > div > img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 1px solid #ff0000;
 }
